@@ -1,0 +1,37 @@
+<div class="comment__blocks">
+
+    <div class="comment__header_blocks">
+        <h6 class="h5">Отзывы</h6>
+    </div>
+
+    <div class="comment__block">
+
+        <% posts.forEach(({ text, createdAt, author }) => { %>
+        <div class="comment">
+           
+
+            <div class="comment__header">
+                <p class="comment_author comment__p"><%= author %></p>
+                <p class="comment_date comment__p"><%= createdAt.toLocaleDateString() %></p>
+            </div>
+            <div class="comment__main">
+                <div class="main__text">
+                    <p class="text comment__p">
+                        <%= text %>
+                    </p>
+                </div>
+            </div>
+           
+        </div>
+        <% }) %>  
+    
+    </div>
+
+    <div class="comment__footer">
+            <ul class= "comment__footer_ul">
+            <li class="comment__footer_li __active_add btn__red">Читать все отзывы</li>
+            <li class="comment__footer_li  __active_add btn__red">Добавить отзыв</li>
+            </ul>
+        </ul>
+    </div>
+</div>

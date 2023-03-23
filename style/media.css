@@ -1,0 +1,496 @@
+@media (min-width: 370px) {
+
+    .logo_and_contacts,
+    .header__nav,
+    .header__nav_burger,
+    .download__price_items,
+    .main__blocks,
+    .services__header,
+    .services__style,
+    .comment__header_blocks,
+    .comment__block,
+    .comment__footer,
+    .footer__blocks {
+        width: 25rem;
+    }
+
+    .h3 {
+        font-size: 1.1rem;
+    }
+
+    .price__description_p {
+        font-size: .9rem;
+        padding: .6rem;
+    }
+
+    .price__control_btn {
+        font-size: 1.1rem;
+    }
+
+    .btn__green,
+    .btn__red {
+        padding: .3rem;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .btn__green,
+    .btn__red {
+            padding: .3rem;
+            font-size: 1.1rem;
+        }
+    .logo_and_contacts,
+    .header__nav,
+    .header__nav_burger,
+    .download__price_items,
+    .main__blocks,
+    .services__header,
+    .services__style,
+    .comment__header_blocks,
+    .comment__block,
+    .comment__footer,
+    .footer__blocks {
+        width: 40rem;
+    }
+
+    .services__style {
+        grid-template-rows: 12rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .h6 {
+        font-size: 1.3rem;
+    }
+
+    .services__description_p {
+        font-size: .8rem;
+    }
+
+    .payment___p {
+        line-height: 1.8rem;
+        font-size: 1.5rem;
+    }
+
+    .footer__blocks {
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .price__li {
+        display: none;
+    }
+
+    .price__aside {
+        display: block;
+    }
+
+    .price__blocks {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: .3rem;
+    }
+
+    .price__description_block {
+        grid-template-rows: 3fr 1fr;
+    }
+
+    .price__description {
+        grid-column: 2/3;
+    }
+
+    
+    .open {
+        display: block;   
+    }
+    .comment__block{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+   
+    .comment__p {
+        font-size: 1rem;
+    }
+  
+    .comment__main {
+        padding: 0 .5rem .5rem .5rem;   
+    }
+    .main__text {
+        padding: .5rem;
+    }
+    .price__menu_p {
+        font-size: .8rem;  
+    }
+    .logo__img{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    
+   
+    .price__control_btn, 
+    .h3 {
+        font-size: 1.2rem;
+    }
+  
+    .price__description_p {
+        font-size: 1rem;
+        padding: .7rem;
+    }
+     
+}
+
+@media (min-width: 768px) {
+
+    .logo_and_contacts,
+    .header__nav,
+    .header__nav_burger,
+    .download__price_items,
+    .main__blocks,
+    .services__header,
+    .services__style,
+    .comment__header_blocks,
+    .comment__block,
+    .comment__footer,
+    .footer__blocks {
+        width: 53rem;
+    }
+
+    .services__style {
+        grid-template-rows: 15rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .h6, .h5 {
+        font-size: 1.5rem;
+    }
+    
+    .services__description_p {
+        line-height: 1.4rem;
+        font-size: 1.2rem;
+    }
+
+    .payment___p {
+        line-height: 2.5rem;
+        font-size: 2rem;
+    }
+    .__td, .td__{
+        font-size: 1.2rem;
+    }
+    .th,.th__{
+        font-size: 1.2rem; 
+    }
+    
+    .price__td {
+        font-size: 1rem;   
+    }
+    .price__menu_p { 
+            font-size: .9rem;
+    }
+    .price__aside_li{
+        font-size: 1rem;
+    }
+    .download__price_items {
+        padding: 3rem 0;  
+    }
+    .h2 {
+        font-size: 2rem;   
+    }
+    .download__price_li {
+        font-size: 1.4rem;
+    }
+    .h3 {
+        font-size: 1.4rem;
+    }
+  
+    .price__description_p {
+        font-size: 1.2rem;
+    }
+    .logo__img{
+        width: 5rem;
+        height: 5rem;
+    }
+    .h1 {
+        font-size: 3rem;
+    }
+    .simeropol_p{
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 896px) {
+    .btn__green,
+    .btn__red {
+           
+            font-size: 1.3rem;
+        }
+    .logo_and_contacts,
+    .header__nav,
+    .header__nav_burger,
+    .download__price_items,
+    .main__blocks,
+    .services__header,
+    .services__style,
+    .comment__header_blocks,
+    .comment__block,
+    .comment__footer,
+    .footer__blocks {
+        width: 63rem;
+    }
+    .telephone__price_{
+        display: none;
+    }
+    .header__nav {
+        display: block;
+    }
+
+    .header__nav_burger {
+        display: none;
+    }
+
+    .header__contacts {
+        display: grid;   
+    }
+
+    .services__style {
+        grid-template-rows: 18rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .h6, .h5{
+        font-size: 2rem;
+    }
+
+    .services__description_p {
+        line-height: 1.4rem;
+        font-size: 1.4rem;
+    }
+
+    .payment___p {
+        line-height: 2.8rem;
+        font-size: 2.5rem;
+    }
+ .main__text{
+    padding: 1rem;
+    font-size: 1.5rem;
+ }
+ .logo__img{
+    width: 4rem;
+    height: 4rem;
+}
+.__td, .td__{
+    font-size: 1.4rem;
+}
+.th,.th__{
+    font-size: 1.4rem; 
+}
+
+.price__td {
+    font-size: 1.2rem;   
+}
+.price__control_btn, 
+.h3 {
+    font-size: 1.8rem;
+}
+
+.price__description_p {
+    font-size: 1.6rem;
+    
+}
+.price__img{
+    height: 15rem;
+}
+
+.__contacts__img{
+    top: -1.2rem;
+    width: 4rem;
+}
+.__contacts__img__before::before {
+    bottom: -.5rem;
+    left: .6rem;
+    font-size: 1rem;
+}
+.__contacts__img__after::after{
+   font-size: 1rem;
+}
+.price__description_delivery{
+    line-height: 3rem;
+}
+}
+
+
+@media (min-width: 1024px) {
+    .btn__green,
+    .btn__red {
+            padding: .5rem;
+            font-size: 1.5rem;
+        }
+    .logo_and_contacts,
+    .header__nav,
+    .header__nav_burger,
+    .download__price_items,
+    .main__blocks,
+    .services__header,
+    .services__style,
+    .comment__header_blocks,
+   
+    .comment__block,
+    .comment__footer,
+    .footer__blocks {
+        width: 70rem;
+    }
+
+    .h6, .h5 {
+        font-size: 2.3rem;
+    }
+
+    .services__description_p {
+        line-height: 1.6rem;
+        
+    }
+
+    .payment___p {
+        line-height: 3rem;
+        font-size: 2.5rem;
+    }
+    .__td, .td__{
+        font-size: 1.6rem;
+    }
+    .th,.th__{
+        font-size: 1.6rem; 
+    }
+    
+    .price__td {
+        font-size: 1.4rem;   
+    }
+    .price__aside_li{
+        font-size: 1.2rem;
+    }
+    .h2 {
+        font-size: 2.5rem;   
+    }
+    .download__price_items {
+        padding: 4rem 0;  
+    }
+    .download__price_li {
+        font-size: 2rem;
+    }
+    
+    .comment__p {
+        font-size: 1.2rem;
+    }
+    .main__text {
+        padding: 2rem;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .logo_and_contacts,
+    .header__nav,
+    .header__nav_burger,
+    .download__price_items,
+    .main__blocks,
+    .services__header,
+    .services__style,
+    .comment__header_blocks,
+ 
+    .comment__block,
+    .comment__footer,
+    .footer__blocks {
+        width: 80rem;
+    }
+
+    .services__style {
+        grid-template-rows: 20rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .h6, .h5 {
+        font-size: 2.5rem;
+    }
+
+    .services__description_p {
+        line-height: 1.9rem;
+        font-size: 1.5rem;
+    }
+
+    .payment___p {
+        line-height: 3.1rem;
+        font-size: 2.6rem;
+    }
+    .main__text{
+        padding: 2rem;
+     }
+     .price__menu_p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1366px) {
+
+    .logo_and_contacts,
+    .header__nav,
+    .header__nav_burger,
+    .download__price_items,
+    .main__blocks,
+    .services__header,
+    .services__style,
+    .comment__header_blocks,
+   
+    .comment__block,
+    .comment__footer,
+    .footer__blocks {
+        width: 85rem;
+    }
+
+    .services__style {
+        grid-template-rows: 23rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .h6, .h5 {
+        font-size: 2.7rem;
+    }
+
+    .services__description_p {
+        line-height: 2.3rem;
+        font-size: 2rem;
+    }
+
+    .payment___p {
+        line-height: 3.6rem;
+        font-size: 2.8rem;
+    }
+    .th, .td{
+        font-size: 1.4rem;  
+    }
+    .price__td {
+        font-size: 1.5rem;
+    }
+    .logo__img{
+        width: 5rem;
+        height: 5rem;
+    }
+    .price__description_p{
+        padding: 1.5rem;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .logo_and_contacts,
+    .header__nav,
+    .header__nav_burger,
+    .download__price_items,
+    .main__blocks,
+    .services__header,
+    .services__style,
+    .comment__header_blocks,
+   
+    .comment__block,
+    .comment__footer,
+    .footer__blocks {
+        width: 94rem;
+    }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <%- include ('./partials/head.ejs')%>
+<body>
+    <div class="wrapper">
+       <div class="error__block">
+        <h2 class="h2_404">404</h2>
+        <p class="p_404">Данной страницы не существует</p>
+        <a class="a_404"  href="/">Главная</a>
+        <div class="time">5</div>
+       </div>
+    </div>
+</body>
+<script>
+   const time = document.querySelector('.time')
+   let i = 4;
+  setInterval(() => {
+    time.textContent = i
+    i--
+    if(i == 0) location.href = '/'
+   }, 1000);  
+</script>
+</html>
